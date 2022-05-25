@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import Orders from './components/Orders'
 //import { Table } from 'antd';
 import ReactDOM from 'react-dom/client';
+import Table_strap from './components/Table2';
 
 import React, { Component } from 'react';
 import Table1 from './components/Table1';
@@ -15,15 +16,14 @@ import Table1 from './components/Table1';
 function App() {
   
   return (
-    
+
     <>
     <Header />
-    
     <div className="container">
-      <Table1 />
+      <Table_strap />
       <Footer /> 
     </div>
-    
+     
     </>
     
   );
