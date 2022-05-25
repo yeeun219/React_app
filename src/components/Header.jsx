@@ -4,7 +4,7 @@ export default function Header() {
     return (
       <header>
         <div className="header__container">
-          <div className="title">Awesome Prototypes in Shop</div>
+          <div className="title">AI 금융상담시스템 관리자 화면</div>
           <div className="subtitle">
             Check out what other designers have created using ProtoPie—download
             these examples to learn exactly how they made their interactions.

@@ -24,6 +24,7 @@ const columns = [
       key: 'age',
   },
 ];
+
 export default function Table1(){
   return (
     <div style={{
