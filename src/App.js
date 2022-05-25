@@ -19,10 +19,12 @@ function App() {
 
     <>
     <Header />
-    <div className="container">
+    <Table_strap />
+    <Footer />
+    {/* <div className="container">
       <Table_strap />
       <Footer /> 
-    </div>
+    </div> */}
      
     </>
     
