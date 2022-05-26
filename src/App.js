@@ -23,6 +23,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import ButtonAppBar from "./components/Up_menu";
 
+// import MoveAnother from "./components/move_another";
+
 
 function App() {
   
@@ -37,7 +39,7 @@ function App() {
       <Table_strap />
       <Footer /> 
     </div> */}
-     
+    {/* <MoveAnother /> */}
     </>
     
   );

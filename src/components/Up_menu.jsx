@@ -6,7 +6,7 @@ import MenuItem from "@material-ui/core/MenuItem";
 import Toolbar from "@material-ui/core/Toolbar";
 import { makeStyles } from "@material-ui/core/styles";
 
-import { menuItems } from "../inputData";
+import { menuItems } from "../inputData_global";
 
 const useStyles = makeStyles((theme) => ({
   root: {
