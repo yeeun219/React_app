@@ -11,7 +11,7 @@ import ReactDOM from 'react-dom/client';
 import Table_strap from './components/Table2';
 
 import React, { Component } from 'react';
-import Table1 from './components/Table1';
+// import Table1 from './components/Table1';
 
 
 
@@ -22,6 +22,8 @@ import Toolbar from "@material-ui/core/Toolbar";
 import { makeStyles } from "@material-ui/core/styles";
 
 import ButtonAppBar from "./components/Up_menu";
+// import Advanced_table from "./components/Table_search";
+import Search_Table from "./components/Table_search_all";
 
 // import MoveAnother from "./components/move_another";
 
@@ -33,7 +35,7 @@ function App() {
     <>
     <Header />
     <ButtonAppBar /> 
-    <Table_strap />
+    <Search_Table/>
     <Footer />
     {/* <div className="container">
       <Table_strap />
